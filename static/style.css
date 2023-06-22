@@ -162,3 +162,14 @@ i.menu-mobile {
         margin-left: 0;
     }
 }
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #ff7b00e5;
+}
