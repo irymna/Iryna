@@ -220,3 +220,28 @@ i.menu-mobile {
     border: 2px solid #fab855;
     background: #fff;
 }
+
+.carousel-control-prev{
+    margin-left: -5rem;
+
+}
+
+.carousel-control-next{
+    margin-right: -5rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+
+@media (max-width: 1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+    
+    }
+    
+    .carousel-control-next{
+        margin-right: 0;
+    }
+        
+}
