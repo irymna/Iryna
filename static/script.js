@@ -23,7 +23,7 @@ navItem.forEach(item => {
     })
 })
 
-// Anima todos os itens da tela que tiverem meu atributo data-anime
+/* Anima todos os itens da tela que tiverem meu atributo data-anime */
 
 const item = document.querySelectorAll("[data-anime]");
 
@@ -44,3 +44,19 @@ animeScroll();
 window.addEventListener("scroll", ()=>{
     animeScroll();
 })
+
+/* Ativa o botão de carregamento de enviar o formulário */
+
+const btnEnviar = document.querySelector('#btn-enviar')
+const btnEnviarLoader = document.querySelector('#btn-enviar-loader')
+
+btnEnviar.addEventListener("click", ()=>{
+  btnEnviarLoader.style.display = "block";
+  btnEnviar.style.display = "none"
+})
+
+// Tira a mensagem de sucesso depois de 5 segundos
+
+setTimeout(() => {
+    document.querySelector('#alerta').style.display = 'none';
+  }, 5000)
