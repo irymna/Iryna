@@ -13,7 +13,7 @@ html, body{
     bottom: 0;
     background: #ff7b00e5;
     overflow-y: auto;
-    width: 300px;
+    width: 280px;
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
     z-index: 9997;    
@@ -85,7 +85,7 @@ html, body{
 }
 
 #main {
-    margin-left: 300px;
+    margin-left: 280px;
 }
 
 section#inicio{
@@ -222,12 +222,12 @@ i.menu-mobile {
 }
 
 .carousel-control-prev{
-    margin-left: -5rem;
+    margin-left: -3rem;
 
 }
 
 .carousel-control-next{
-    margin-right: -5rem;
+    margin-right: -3rem;
 }
 
 .carousel-indicators{
@@ -273,4 +273,8 @@ i.menu-mobile {
     right: 30px;
   }
 
-  
+  @media (max-width: 767px) {
+    .container, .container-fluid {
+      width: auto !important;
+    }
+  }
