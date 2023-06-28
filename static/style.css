@@ -89,7 +89,7 @@ html, body{
 }
 
 section#inicio{
-    background-image: url(./img/banner.png);
+    background-image: url(./img/bg_final.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -108,9 +108,22 @@ section#inicio span#subtitle {
 }
 
 .text-shadow{
-    text-shadow: 0px 0px 1px #270d01;
+    text-shadow: 0px 0px 1px #fff;
 }
 
+.gray-marker {
+    background-color: rgba(255, 123, 0, 0.7); /* Cinza claro com 50% de opacidade */
+    padding: 3px;
+    display: inline-block;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.centered-container {
+    height: 100vh; /* Definir a altura total da janela para centralizar verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section#inicio div#arraste {
     width: 9rem;
 }
